@@ -1,0 +1,154 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+ }
+ .body{
+     font-size:  1rem; 
+ }
+ 
+ .instalogo{
+     height: 100px;
+     width:75%;
+ 
+ }
+ 
+ 
+ .box{
+     height: 300px;
+     width: 500px;
+ }
+ form{
+     outline: 1px solid grey;
+     width: 33%;
+     margin-left: 350px;
+ 
+     padding: right 10px;
+     padding-left:5px;
+     padding-top: 5px;
+     padding-bottom:55px;
+     display: flex;
+     height: 59vh;
+     
+       
+     
+     background-color: #ffffff;
+     
+     
+ } 
+ #div1{
+     background-color:  #ffffff;
+     width: px;
+     box-sizing: 50px;
+ }
+ form-control{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding: 5px;
+     padding-bottom:;
+ }
+ 
+ 
+ &::before,
+ &::after{
+ content:;
+ display:;
+ }
+ &::after{
+ 
+ }
+ .faicone{
+     margin-top: 50px;
+ }
+ .flogin{
+     color: rgba(var(--fe0,0,55,107),1);  
+     text-decoration: none;
+ }
+ .Forgot-password{
+     color: rgba(var(--fe0,0,55,107),1);   
+     text-decoration: none;
+ }
+ .line{
+     display: flex;
+     margin-bottom: 7px;
+ }
+ .arrow{
+ background-color: gray;
+ height: 1px;
+ width: 50%;
+ }
+ .content{
+     color: gray;
+     margin-top: -8px;
+     margin-left: 4px;
+     margin-right: 4px;
+ }
+ .signup{
+     
+     border: 1px solid #e6e6e6; 
+     border-radius: 1px; 
+     width:110%;
+     height: 50px;
+     display: ;
+     padding-left: 20px;
+     margin-left: -10px;
+     
+ }
+ 
+ 
+ #slider{
+     overflow: hidden;
+ }
+ #slider figure{
+     position: relative;
+     width: 100%;
+     margin: 0;
+     left: 0;
+     animation: 20s slider infinite;
+ }
+ #slider figure img{
+     width: 20%;
+     float:left
+ }
+ @keyframes slider {
+     0% {
+         left: 0;
+     }
+     20% {
+         left: 0;
+     }  
+         25% {
+             left: -100%;
+         }
+         45% {
+             left: -100%;
+         }
+         50% {
+             left:-200%;
+         }
+         70% {
+             left: -300%;         
+ 
+         }
+         100% {
+             left: -400%;
+         }
+     
+ }
+ 
+ /*.container{
+     width: 100%;
+     height:100vh;
+     display:grid;
+     margin:;
+     margin-right:;
+     justify-content: center;
+     align-items: center;
+     flex-direction:;
+       border:  solid #e6e6e6; 
+       border-radius: 1px;
+       padding:px;
+ 
+ 
+ }*/
