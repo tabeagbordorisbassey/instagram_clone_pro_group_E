@@ -1,9 +1,9 @@
 
 
-slider{
+.slider{
     width: 1000px; 
     height: 400px;
-    background-image: url(image/happy1.png);
+    background-image: url(image1/happy1.png);
     background-repeat: no-repeat;
     margin: 100px auto;
     animation: slide 10s infinite;
@@ -17,14 +17,17 @@ slider{
         background-image: url(image1/girlCat2.png);
     } 
     75%{
-        background-image: url();
+        background-image: url(image1/friends3.png);
     } 
     100%{
-        background-image: url();
+        background-image: url(image1/messages4.png);
     } 
 }
 .position{
     margin-top: 42px;
+}
+.getapp{
+    margin-bottom:0px;
 }
  
 /*end css*/
@@ -216,7 +219,7 @@ slider{
     max-width: 935px;
     width: 700px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: -5px 0;
     display: flex;
     justify-content: space-between;
     color: #003569;
